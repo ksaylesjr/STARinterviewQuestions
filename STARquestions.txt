@@ -1,19 +1,45 @@
 1) Tell me about a time you had to work with someone who had a different opinion than you. How did you handle it?
 
+During my senior year Capstone project, our team was tasked with using machine learning to predict future real estate market prices in the DFW area. One of the decisions we had to make was which algorithm to use to train our data. I suggested using XGBoost, while one of my teammates preferred Random Forest.
+
+Rather than arguing for our individual preferences, we each did additional research on the strengths and weaknesses of both algorithms. We then brought our findings back to the team and discussed which approach would make the most sense for our specific project. We found that the expected results would be very similar for our dataset, and the team had more familiarity with Random Forest, which would make implementation and troubleshooting easier.
+
+Ultimately, I agreed with the team’s decision to use Random Forest. I appreciated that we were able to come together and discuss the opposing views and make a decision that ultimately led to a successful project in the end.
+
 2) Tell me about a time you faced a difficult technical problem and didn't know the solution immediately. What did you do?
+
+I was unable to send/receive mail in the Apple mail app while at Cognizant using my MacBook or my iPhone. My iPhone was connected to my cellular network so my original suspicions about the company network blocking traffic on my MacBook could  not be confirmed. After doing some troubleshooting later that day on my home network I found that Apple mail was experiencing authorization issues for the accounts and the problem was solved after I fixed this issue. 
+
+The next day at Cognizant I again was having issues with mail through the Apple mail app and so I signed into Gmail through the browser and found that I was able to send/receive mail. I did some network troubleshooting with the help of AI to walk me through the proper terminal commands of confirming if my computer was able to reach the servers Apple mail was using and that the TLS handshake was successful. I found that the TCP connections succeeded but the encrypted mail connections were hanging. I then connected to my phone hotspot and I was able to use Apple mail again, confirming that the original problem I had on day one was a combination of authentication issues and the company's network infrastructure  were causing issues with secure mail delivery on Apple mail.
+
 
 3) Tell me about a time you had to learn a new technology or concept quickly.
 
+During my education I was working with C++ and Java primarily in the beginning. I was fairly comfortable and felt competent using java for my programming needs. I then began a class and found that our assignments would need to be done in Python. To bring myself up to speed as fast as possible I did my best to connect how Python was similar to Java hoping that would help bridge my learning with concepts I was already familiar with. I then studied how the two are different to better my understanding of Python. After completing some basic programs I became more familiar with the syntax, this helped to decrease frustrations of completing assignments during the course.
+
 4) Describe a time you made a mistake on a project. How did you handle it?
+
+During the Capstone project of my senior year we were assigned a project using machine learning to predict the future real estate market prices in the DFW area. We trained our model and our output was fairly accurate to what we expected. We then implemented a database to store our collected data and after the model trained using the database, our output was now very different. After tracing the ordering pipeline, I found that the engineered features that the model was trained on were not saved to the database. After correcting the engineered features to be stored in the database, the model was once again producing the output we expected to see. 
 
 5) Tell me about a time you had to meet a tight deadline. How did you prioritize your work?
 
+? Military related maybe?
+
 6) Tell me about a time you received constructive criticism. How did you respond?
+
+ During my education pursuing a degree in computer science I met with a career counselor. During our meeting, the counselor was reviewing my resume. At the end of her review she handed the paper back to me with quite a few red marks that she was suggesting I correct. We then went over her corrections one by one as she explained why she would suggest the change. During the conversation I would ask questions to understand why her recommendations are different than my original version so that I could fully grasp where she was coming from. I built my resume on advice I found from previous students that were successful and tips I found online and so I was confident that my version was up to par. After the meeting I felt I had a more professional opinion on what was expected on my resume and I appreciated the knowledge she shared.
 
 7) Describe a situation where you had to explain something technical to someone who wasn't familiar with it.
 
+Me and my partner purchased a house that was previously owned by an experienced engineer. The engineer made fairly complex upgrades to the property that someone who has no experience in networking or current technology would easily grasp at first glance. I had previously completed a networking course and that along with additional research I was able to secure our home network and security system. While explaining some concepts that would help her to operate the systems, I would use different, more familiar everyday terminology that she would be able to better understand. An example, the engineer used static IP addresses for specific cameras and he did not leave behind a detailed list of the devices and their respective info. I had to troubleshoot and learn new tools that allowed me to break each part of the problem down. I would tell her that the cameras are locked and I need to figure out how to unlock them, she didn't need to understand networking to know that "locked" is an analogy for static IPs that I can not find on our new network.
+
+
 8) Tell me about a time you took initiative without being asked.
-i
+
+During my time in the Marine Corps we would often have training exercises that required specific gear as well as knowledge that was needed before the exercise. I would randomly go into other Marines rooms and do gear inspections, this was to verify that they had what they needed and if not, I would help them retrieve the missing gear. I think this was helpful to each of us because it not only sparked comradery between us and helped build better relationships but it would give us each the opportunity to learn something that we did not know before, distributing information. 
+
 9) Tell me about a time you had to balance multiple tasks or projects at once.
+
+
 
 10) Tell me about a time you failed at something.
